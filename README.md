@@ -23,7 +23,7 @@ $p_i$ - wartość predykcji <br>
 
 
 ## Kaggle
-Konkurs dostępny na Kaggle - link do [konkursu](https://www.kaggle.com/t/5f586fe8eb894a01bdbd4332bbc10d67).
+Konkurs dostępny na Kaggle - link do konkursu: https://www.kaggle.com/c/diabetes-readmission/).
 
 ## Dane treningowe i testowe
 W danych jest **66 221** wierszy, które zostały podzielone prawie na równe cześci: <br>
