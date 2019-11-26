@@ -31,6 +31,7 @@ W danych jest **66 221** wierszy, które zostały podzielone prawie na równe cz
 - test (33 170 wierszy) - to trochę większy zbiór niż testowy, więec trzeba będzie spojrzeć na krzywą uczenia
 
 ## Zmienne
+<i>
 <b>encounter_id</b> - Unikalny identyfikator spotkania<br>
 <b>patient_nbr</b> - Unikalny identyfikator pacjenta<br>
 <b>race</b> - Rasa<br>
@@ -60,3 +61,4 @@ W danych jest **66 221** wierszy, które zostały podzielone prawie na równe cz
 <b>24 kolumny z nazwami lekarstw</b> (metformin, repaglinide, nateglinide, chlorpropamide, glimepiride, acetohexamide, glipizide, glyburide, tolbutamide, pioglitazone, rosiglitazone, acarbose, miglitol, troglitazone, tolazamide, examide, sitagliptin, insulin, glyburide-metformin, glipizide-metformin, glimepiride-pioglitazone, metformin-rosiglitazone, metformin-pioglitazone) - Mówi o tym czy dawka na dane lekarstwo została zwiększona, zmniejszona, czy pozostała bez zmian, lub czy w ogóle nie było recepty na to lekarstwo<br>
 <b>readmitted </b>- Czy w ciągu 30 dni pacjent był ponownie skierowany do hospitalizacji<br>
 <b>id </b>- Unikalne id obserwacji (potrzebne do Kaggle)<br>
+</i>
