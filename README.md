@@ -2,27 +2,22 @@
 
 Hospital Readmission of Patients with Diabetes.<br>
 
-https://www.kaggle.com/c/diabetes-readmission/
+# 1. Cel, pomiar celu, dane
+Chcemy przewidzieć, czy pacjent z cukrzycą zostanie odesłany do szpitala w ciągu 30 dni. Target zawarto w kolumnie readmitted (wartość readmitted=100 - pacjent wróci w ciagu 30 dni do szpitala,readmitted=0 pacjent nie wróci wciągu 30 dni di szpitala)
 
-1. Cel, pomiar celu, dane
-Chcemy przewidzieć, czy pacjent z cukrzycą zostanie odesłany do szpitala w ciągu 30 dni, czyli kolumna readmitted=100
-
-1.1 Miara
+## 1.1 Miara
 Miarą sukcesu (ang. success metric) jest współczynik RMSLE:
-𝑅𝑀𝑆𝐿𝐸=1𝑛∑𝑛𝑖=1(𝑙𝑜𝑔(𝑝𝑖+1)−𝑙𝑜𝑔(𝑎𝑖+1))2⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯√=1𝑛∑𝑛𝑖=1(log𝑝𝑖+1𝑎𝑖+1)2⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯√ 
-𝑎𝑖  -wartości rzeczywiste
-𝑝𝑖  - wartość predykcji
 
-1.2. Kaggle
-Konkurs dostępny na Kaggle - link do konkursu.
+## 1.2. Kaggle
+Konkurs dostępny na Kaggle - link do konkursu: https://www.kaggle.com/c/diabetes-readmission/
 
-1.3 Dane treningowe i testowe
+## 1.3 Dane treningowe i testowe
 W danych jest 66 221 wierszy, które zostały podzielone prawie na równe cześci:
 
 train (33 051 wierszy)
 test (33 170 wierszy) - to trochę większy zbiór niż testowy, więec trzeba będzie spojrzeć na krzywą uczenia
-1.4 Zmienne
-encounter_id - Unikalny identyfikator spotkania.
+## 1.4 Zmienne
+encounter_id - Unikalny identyfikator spotkania
 patient_nbr - Unikalny identyfikator pacjenta
 race - Rasa
 gender - Płeć
