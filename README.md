@@ -5,7 +5,7 @@ Wykorzystanie modeli uczenia maszynowego do przewidywania, czy pacjenci z cukrzy
 ## Kontekst biznesowy
 Chcemy zminimalizować refundację dla szpitali o ponadprzeciętnej readmisji. <br>
 Dla tych szpitali, które są obecnie karane w ramach tego programu, jednym z rozwiązań jest stworzenie interwencji w celu zapewnienia dodatkowej pomocy pacjentom o zwiększonym ryzyku readmisji. <br>
-Pytanie jednak jest takie: <b>jak rozpoznać takich pacjentów?<b> 
+Pytanie jednak jest takie: <b>jak rozpoznać takich pacjentów?</b> 
 
 ## Cel dla ML
 Chcemy przewidzieć, czy pacjent z cukrzycą zostanie odesłany do szpitala w ciągu 30 dni.<br>
