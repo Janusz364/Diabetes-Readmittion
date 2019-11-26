@@ -28,7 +28,7 @@ Konkurs dostępny na Kaggle - link do konkursu: https://www.kaggle.com/c/diabete
 ## Dane treningowe i testowe
 W danych jest **66 221** wierszy, które zostały podzielone prawie na równe cześci: <br>
 - train (33 051 wierszy) <br>
-- test (33 170 wierszy) - to trochę większy zbiór niż testowy, więec trzeba będzie spojrzeć na krzywą uczenia
+- test (33 170 wierszy) 
 
 ## Zmienne
 <i>
